@@ -1,0 +1,24 @@
+{
+    "name": "scitotec/passage-of-time",
+    "description": "Convenient event classes for Mathias Verraes Passage of Time Event concept.",
+    "type": "library",
+    "require": {
+        "php": ">=8.1"
+    },
+    "require-dev": {
+        "friendsofphp/php-cs-fixer": "^3.13",
+        "phpunit/phpunit": "^9.5"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Scitotec\\PassageOfTime\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Robert Worgul",
+            "email": "robert.worgul@scitotec.de"
+        }
+    ]
+}
